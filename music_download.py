@@ -1,8 +1,10 @@
 import imslp
 import mwclient
+import os
+import webbrowser
 import requests
 site = mwclient.Site('imslp.org', path='/')
-
+'''
 # Specify the page title of the composition that contains the MP3 file
 composition_page_title = "Cello_Suite_No.1_in_G_major,_BWV_1007_(Bach,_Johann_Sebastian)"
 
@@ -22,5 +24,5 @@ for line in composition_page_text.split('\n'):
 if mp3_link:
     file = site.images[mp3_link]
     file.imageinfo['url'] = "http:" + file.imageinfo['url']
-    print(file.imageinfo)
-    mwclient.image.Image.download(file)
+'''
+webbrowser.open('http://www.piano-midi.de/midis/mozart/mz_311_1.mid')
