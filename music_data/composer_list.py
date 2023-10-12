@@ -1,6 +1,6 @@
 mozart_list = [
     "http://www.piano-midi.de/midis/mozart/mz_311_1.mid",
-    "http://www.piano-midi.de/midis/mozart/mz_311_2.mid"
+    "http://www.piano-midi.de/midis/mozart/mz_311_2.mid",
     "http://www.piano-midi.de/midis/mozart/mz_311_3.mid",
     "http://www.piano-midi.de/midis/mozart/mz_330_1.mid",
     "http://www.piano-midi.de/midis/mozart/mz_330_2.mid",
