@@ -3,7 +3,7 @@
 import os
 from pydub import AudioSegment
 
-def midi_to_mp3(midi_file, soundfont, wav_file):
+def midi_to_wav(midi_file, soundfont, wav_file):
     # Convert MIDI to WAV using fluidsynth
     # wav_file = mp3_file.replace('.mp3', '.wav')
     os.system(f'fluidsynth -ni {soundfont} {midi_file} --fast-render={wav_file} -r 44100')
